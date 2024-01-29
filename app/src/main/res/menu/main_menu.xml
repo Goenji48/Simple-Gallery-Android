@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Crescente"
+        android:id="@+id/order_by_asc"
+        app:showAsAction="never"/>
+
+    <item android:title="Decrescente"
+        android:id="@+id/order_by_desc"
+        app:showAsAction="never"/>
+
+    <item android:title="Mais recente"
+        android:id="@+id/order_by_recent"
+        app:showAsAction="never"/>
+
+    <item android:title="Mais antigo"
+        android:id="@+id/order_by_older"
+        app:showAsAction="never"/>
+
+    <item android:title="Sobre"
+        android:id="@+id/about"
+        app:showAsAction="never" />
+</menu>
